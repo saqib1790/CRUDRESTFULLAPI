@@ -1,0 +1,19 @@
+<!-- views/register.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register User</title>
+</head>
+<body>
+  <h1>Register New User</h1>
+  <form action="/register" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <label for="age">Age:</label>
+    <input type="number" name="age" required>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
